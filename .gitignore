@@ -1,44 +1,72 @@
-#Maven
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+node_modules/
+parts/
+sdist/
+var/
+package*.json
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Translations
+*.mo
+
+# Scrapy stuff:
+.scrapy
+
+# PyBuilder
 target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-release.properties
-.flattened-pom.xml
 
-# Eclipse
-.project
-.classpath
-.settings/
-bin/
+# IPython Notebook
+.ipynb_checkpoints
 
-# IntelliJ
-.idea
-*.ipr
-*.iml
-*.iws
+# pyenv
+.python-version
 
-# NetBeans
-nb-configuration.xml
+# virtualenv
+venv/
+ENV/
 
-# Visual Studio Code
-.vscode
-.factorypath
+# MkDocs documentation
+site*/
 
-# OSX
 .DS_Store
-
-# Vim
-*.swp
-*.swo
-
-# patch
-*.orig
-*.rej
-
-# Local environment
-.env
-
-# Plugin directory
-/.quarkus/cli/plugins/
-
